@@ -18,8 +18,8 @@ img{
 }
 
 /* .head-container{
-    position: absolute;
-    z-index: 0;
+    position: sticky;
+    
 } */
 
 .container{
@@ -187,4 +187,17 @@ img{
 
 .favorite:hover{
     color: #FF0000;
+}
+
+.sostenibility-only{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 10px 5px;
+    font-size: 10px;
+    padding: 3px 6px;
+    color: #FFFCFA;
+    background-color: #008000;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
