@@ -12,6 +12,11 @@ img{
     max-width: 100%;
 }
 
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 
 .container{
     background-color: #FF6900;
@@ -62,5 +67,58 @@ img{
 
 .list i{
     color: #FFFCFA;
+
+}
+
+.main-container{
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid black;
+    max-width: 1100px;
+    background-color: orchid;
+    height: 1rem;
+}
+
+.col{
+    width: calc(100% / 3);
+    padding: 20px;
+}
+
+.card{
+    position: relative;
+}
+
+.favorite{
     
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    background-color: #FFFCFA;
+    margin-top: 5px;
+    
+}
+
+.discount{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 10px 5px;
+    background-color: #FF0000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #FFFCFA;
+    padding: 1px;
+}
+
+.sostenibility{
+    position: absolute;
+    bottom: 0;
+    left: .1;
+    margin: 10px 5px;
+    background-color: #008000;
+}
+
+.favorite:hover{
+    color: #FF0000;
 }
