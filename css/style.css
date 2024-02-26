@@ -12,6 +12,7 @@ img{
     max-width: 100%;
 }
 
+/* COMMON */
 /* main{
     margin-top: 40px;
     width: 100%;
@@ -23,13 +24,9 @@ img{
     flex-wrap: wrap;
 }
 
-/* .head-container{
-    position: fixed;
-    top: 0;
-    left: 0;
-    
-} */
 
+/* MAIN */
+/* Header */
 .head-container{
     position: fixed;
     top: 0;
@@ -88,7 +85,9 @@ img{
     color: #FFFCFA;
 
 }
+/* /Header */
 
+/* main */
 .main-container{
     
     display: flex;
@@ -218,7 +217,9 @@ img{
     font-family: Arial, Helvetica, sans-serif;
 
 }
+/* /main */
 
+/* footer */
 .footer-container{
     display: flex;
     width: 100%;
@@ -295,3 +296,4 @@ img{
     margin-right: 10px;
     font-size: 18px;
 }
+/* /footer */
