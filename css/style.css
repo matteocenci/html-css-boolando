@@ -1,3 +1,7 @@
+
+
+
+/* RESET */
 *{
     margin: 0;
     padding: 0;
@@ -6,4 +10,57 @@
 
 img{
     max-width: 100%;
+}
+
+
+.container{
+    background-color: #FF6900;
+    width: 100%;
+    height: 2.5rem;
+    display: flex;
+    
+}
+
+.genre{
+    display: flex;
+    flex-direction: row;
+    width: calc(100% / 3);
+
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    margin: 0 30px;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.genre a{
+    color: #FFFCFA;
+    text-decoration: none;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    width: calc(100% / 3);
+    justify-content: center;padding: 5px 0;
+
+}
+
+.user-space{
+    display: flex;
+    flex-direction: row;
+    width: calc(100% / 3);
+    justify-content: flex-end;
+
+}
+
+.list i{
+    color: #FFFCFA;
+    
 }
